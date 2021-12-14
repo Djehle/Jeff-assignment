@@ -1,6 +1,6 @@
 body{
     Color: white;	
-	background-color: blue;
+	background-color: rgba(74,20,247,255);
 	margin:0px;
 	font-family:Arial;
 }
@@ -13,6 +13,12 @@ input[type='button']{
 	
 }
 
+.section_header{
+	
+	display: flex;
+	justify-content: space-around;	
+}
+
 .section_a{
 	
 	display: flex;
@@ -21,8 +27,9 @@ input[type='button']{
 }
 
 .section_b{	
-	flex: 1 1 auto;
+	flex: 0 1 400px
 	flex-direction: column;
+	justify-content:center;
 }
 
 
